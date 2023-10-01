@@ -105,7 +105,7 @@ header h1 {
 .items {
   margin-top: 20px;
   display: block;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .items li {
