@@ -155,7 +155,7 @@ function removeitem(item){
     // checking the clicked item
     if (confirm('Are you sure?')) {
         // Remove item from DOM
-        item.remove();
+        item.parentElement.remove();
 
         // Remove item from storage
         removeItemFromStorage(item.textContent);
