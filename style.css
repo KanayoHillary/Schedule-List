@@ -26,6 +26,7 @@ header {
 header h1 {
   font-weight: 300;
   margin-left: 10px;
+  font-weight: 500;
 }
 
 .container {
@@ -95,6 +96,9 @@ header h1 {
 .btn-clear:hover {
   background-color: #f1f1f1;
 }
+.edit-mode{
+  color: #ccc;
+}
 
 .text-red {
   color: red;
@@ -118,6 +122,14 @@ header h1 {
   margin: 0 5px 20px;
   font-weight: 700;
   cursor: pointer;
+}
+
+footer{
+  text-align: end;
+  position: fixed;
+  top: 0;
+  right: 0;
+  font-size: small;
 }
 
 @media (max-width: 500px) {
